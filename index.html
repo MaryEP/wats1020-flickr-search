@@ -6,18 +6,11 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Flickr Search</title>
+        <title>Flickr Search Tool</title>
         <meta name="description" content="Demo of searching via Flickr API using AJAX.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
-
         <link rel="stylesheet" href="css/bootstrap.min.css">
-        <style>
-            body {
-                padding-top: 50px;
-                padding-bottom: 20px;
-            }
-        </style>
         <link rel="stylesheet" href="css/bootstrap-theme.css">
         <link rel="stylesheet" href="css/main.css">
 
@@ -27,6 +20,7 @@
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+      
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
@@ -49,19 +43,30 @@
       </div>
     </nav>
 
-    <div class="container">
-      <h1 class="search-title">Flickr Search</h1>
+      <h1 class="search-title">Flickr Search Tool</h1>
       <ul id="images">
-        <!-- TODO: Replace the content in this area with a grid of images based on the results of the search. -->
-        <li class="placeholder">Search for images using the search bar above!</li>
-      </ul>
-
-      <hr>
-
+        <li class="placeholder">Search for images using the search bar above.</li>
+        </ul>
+     <div class="container-fluid">
+        <!--<hr> TODO: Replace the content in this area with a grid of images based on the results of the search. -->
+     <div class="imagegrid">
+       
+   <div class="row">
+    <div class="col-md-4">
+      </div>
+   <div class="col-md-4">
+     </div>
+    <div class="col-md-4">
+    
+    </div>
+      </div>
+</div>
+  
+       
       <footer>
-        <p>&copy; Jane Student 2015</p>
+        <p>&copy; Mary Pringle 2016</p>
       </footer>
-    </div> <!-- /container -->
+    </div> <!-- /end of container -->
 
     <!-- Modal Window used for displaying content-->
     <div class="modal fade" id="infoModal" tabindex="-1" role="dialog" aria-labelledby="infoModalLabel" aria-hidden="true">
@@ -83,9 +88,7 @@
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
-
     <script src="js/vendor/bootstrap.min.js"></script>
-
     <script src="js/main.js"></script>
 
     </body>
